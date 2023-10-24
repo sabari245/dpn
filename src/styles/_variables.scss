@@ -40,6 +40,35 @@ $color-deactive: #ababab;
 $color-text-dark: #dddddd;
 $color-text-light: #4d4d4d;
 
+// $color-white: #fff;
+// $color-gray: #fcfcfc;
+// $color-cyan: #808080;
+// $color-cyan-dark: #f3f3f3;
+// $color-cyan-light: #5f5f5f;
+// //overwritten by site.json -> theme -> primary_color if set
+// $color-primary: #4ED91C;
+// $color-primary-light: #e6ebf4;
+// $color-primary-dark: mix($color-primary, $color-white, 12%);
+// $color-gray-light: mix($color-primary, $color-white, 2%);
+// $color-gray-dark: mix($color-primary, $color-white, 6%);
+// //overwritten by site.json -> theme -> secondary_color if set
+// $color-secondary: #e6e6e6;
+// $color-secondary-light: mix($color-primary, $color-white, 16%);
+// $color-secondary-dark: #e6e6e6;
+// //overwritten by site.json -> theme -> anchor_color if set
+// $color-anchor: #808080;
+// $color-anchor-dark: mix($color-anchor, $color-white, 30%);
+// //overwritten by site.json -> theme -> background_effects_color if set
+// $color-background-effects: #808080;
+
+// $color-header: #000;
+// $color-header-light: mix($color-anchor, $color-white, 4%);
+// $color-header-dark: mix($color-anchor, $color-white, 12%);
+// $color-text: #282828;
+// $color-deactive: #ababab;
+// $color-text-dark: #dddddd;
+// $color-text-light: #4d4d4d;
+
 // Spacer Variables
 $base-padding: 1rem;
 $base-margin: 1rem;
@@ -50,3 +79,81 @@ $base-transition: all 0.5s ease-in-out;
 //Others Varibles
 $base-border-width: 1px;
 $base-border-radius: 8px;
+
+// $themes: (
+//     dark: (text: #0a0a0a,
+//         background: #f8fef6,
+//         primary: #59e326,
+//         secondary: #e6e6e6,
+//         accent: #808080,
+//     ),
+//     light: (text: #f5f5f5,
+//         background: #030901,
+//         primary: #4ed91c,
+//         secondary: #1a1a1a,
+//         accent: #808080,
+//     ),
+// );
+
+// $color-white: map-get(map-get($themes, light), background);
+// $color-gray: map-get(map-get($themes, light), secondary);
+// $color-cyan: map-get(map-get($themes, light), accent);
+// $color-cyan-dark: map-get(map-get($themes, dark), accent);
+// $color-cyan-light: map-get(map-get($themes, light), accent);
+// $color-primary: map-get(map-get($themes, light), primary);
+// $color-primary-light: map-get(map-get($themes, light), primary);
+// $color-primary-dark: mix($color-primary, $color-white, 12%);
+// $color-gray-light: mix($color-primary, $color-white, 2%);
+// $color-gray-dark: mix($color-primary, $color-white, 6%);
+// $color-secondary: map-get(map-get($themes, light), secondary);
+// $color-secondary-light: map-get(map-get($themes, light), secondary);
+// $color-secondary-dark: #f7f8fa;
+// $color-anchor: map-get(map-get($themes, light), primary);
+// $color-anchor-dark: mix($color-anchor, $color-white, 30%);
+// $color-background-effects: #faaa8f;
+// $color-header: map-get(map-get($themes, light), text);
+// $color-header-light: mix($color-anchor, $color-white, 4%);
+// $color-header-dark: mix($color-anchor, $color-white, 12%);
+// $color-text: map-get(map-get($themes, light), text);
+// $color-deactive: #ababab;
+// $color-text-dark: map-get(map-get($themes, dark), text);
+// $color-text-light: #4d4d4d;
+
+// $themes: (
+//     light: (text: #0a0a0a,
+//         background: #f8fef6,
+//         primary: #59e326,
+//         secondary: #e6e6e6,
+//         accent: #808080,
+//     ),
+//     dark: (text: #f5f5f5,
+//         background: #030901,
+//         primary: #4ed91c,
+//         secondary: #1a1a1a,
+//         accent: #808080,
+//     ),
+// );
+
+// $color-white: map-get(map-get($themes, dark), background);
+// $color-gray: map-get(map-get($themes, dark), secondary);
+// $color-cyan: map-get(map-get($themes, dark), accent);
+// $color-cyan-dark: map-get(map-get($themes, dark), accent);
+// $color-cyan-light: map-get(map-get($themes, dark), accent);
+// $color-primary: map-get(map-get($themes, dark), primary);
+// $color-primary-light: map-get(map-get($themes, dark), primary);
+// $color-primary-dark: mix($color-primary, $color-white, 12%);
+// $color-gray-light: mix($color-primary, $color-white, 2%);
+// $color-gray-dark: mix($color-primary, $color-white, 6%);
+// $color-secondary: map-get(map-get($themes, dark), secondary);
+// $color-secondary-light: map-get(map-get($themes, dark), secondary);
+// $color-secondary-dark: #f7f8fa;
+// $color-anchor: map-get(map-get($themes, dark), primary);
+// $color-anchor-dark: mix($color-anchor, $color-white, 30%);
+// $color-background-effects: #faaa8f;
+// $color-header: map-get(map-get($themes, dark), text);
+// $color-header-light: mix($color-anchor, $color-white, 4%);
+// $color-header-dark: mix($color-anchor, $color-white, 12%);
+// $color-text: map-get(map-get($themes, dark), text);
+// $color-deactive: #ababab;
+// $color-text-dark: map-get(map-get($themes, dark), text);
+// $color-text-light: #4d4d4d;

@@ -2,36 +2,33 @@
 _schema: default
 title: Home
 seo:
-  page_description:
-  canonical_url:
-  featured_image:
-  featured_image_alt:
-  author_twitter_handle:
-  open_graph_type:
+  page_description: Revolutionizing Data Privacy
+  canonical_url: /home
+  featured_image: /images/home/home-image.png
+  featured_image_alt: Secure Data Exchange
+  author_twitter_handle: SabariHDev
+  open_graph_type: website
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Beautiful email campaigns
+    title: Revolutionize Data Privacy
     description: >-
-      With Sendit, you can quickly create beautiful rich emails that capture a
-      reader's attention, engage them, and convert them into customers.
+      Our innovative system ensures data privacy and security through smart contracts, oracles, and encryption. Experience a new era of secure data privacy.
     image: /images/hero/hero-image-2.png
-    image_alt: Reports dashboard
+    image_alt: Secure Data Privacy
     button:
-      text: Try This Free
+      text: Get Started
       link: /signup/
   - _bookshop_name: global/counter
-    title: Scale your
-    title_suffix: Business
+    title: Empowering Data Security
     description: >-
-      We have an extensive library of pre-written sales emails, proven marketing
-      templates, and more to get you started on your next project.
+      Join the journey with a dedicated team, substantial funding, and a growing user base. We're here to empower your data security.
     alternate_style: false
     numbers:
       - prefix: $
         number: 200
         suffix: m
-        text: Venture capital raised
+        text: Funding Raised
       - prefix:
         number: 2016
         suffix:
@@ -39,82 +36,73 @@ content_blocks:
       - prefix:
         number: 40
         suffix: +
-        text: Amazing team members
+        text: Team Members
       - prefix:
         number: 4322
         suffix: +
-        text: Active users and growing
+        text: Secure Users and Growing
   - _bookshop_name: home/video
     image: /images/video/video-thum.jpg
-    image_alt: Thumbnail for video
+    image_alt: Watch Our Video
     video_url: https://vimeo.com/45830194
   - _bookshop_name: global/header
-    title: "Sendit "
+    title: "Experience Secure Data Privacy"
     title_suffix: Features
     remove_top_padding: true
     description: >-
-      Our platform offers the most advanced features including automated email
-      content creation, dynamic personalization, and customer segmentation.
+      Explore the most advanced features, including automated data handling, dynamic personalization, and user segmentation.
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-one.png
-    image_alt: Message inbox
-    title: Email Campaign in one minute
+    image_alt: Data Privacy in one minute
+    title: Secure Data Privacy
     description: >-
-      Send an email campaign with one click, in just minutes. Automate your
-      emails and content, while keeping the human touch.
+      Exchange data securely with a single click in just minutes. Automate data handling while maintaining confidentiality.
     button:
       link: /signup
-      text: Try This Free
+      text: Get Started
     reversed: false
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-two.png
-    image_alt: Visitor chart
-    title: See every Lead in one Place
+    image_alt: Analytics chart
+    title: Centralized Analytics
     description: >-
-      Sales analytics and automation made simple: see every sales lead in one
-      place, regardless of where it came from.
+      Simplify data analytics and automation. Access all data in one centralized location, ensuring security.
     button:
       link: /signup
-      text: Try This Free
+      text: Get Started
     reversed: true
   - _bookshop_name: global/feature
     image: /images/feature/feature-card-three.png
     image_alt: File upload
-    title: 100% free uploads
+    title: Free Data Uploads
     description: >-
-      Sendit is used by everyone from small businesses to fortune 500 companies.
-      Browse our collection of email marketing templates and start sending
-      beautiful emails in minutes.
+      Our system serves everyone, from individuals to large enterprises. Browse our data handling templates and start securely exchanging data for free.
     button:
       link: /signup
-      text: Try This Free
+      text: Get Started
     reversed: false
   - _bookshop_name: global/testimonial
-    title: Build relationships that
-    title_suffix: last
+    title: Building Strong Data Security
+    title_suffix: that Last
     description: >-
-      Customers from around the world are building game changing email marketing
-      campaigns.
+      Join the community of users who have enhanced their data security and privacy.
     slider:
       - image: /images/testimonial/logo-2.jpg
         image_alt: Profile photo of Pete Fish
         author: Pete Fish
-        designation: CMO at Clear Appeal
+        designation: CMO at DataGuard
         message: >-
-          Sendit has taken Clear Appeal to the next level with it's beautiful
-          targetted email campaigns.
+          Our system has taken data security to the next level with its robust data privacy mechanisms.
       - image: /images/testimonial/logo-3.jpg
         image_alt: Profile photo of Dolly Watson
         author: Dolly Watson
-        designation: Digital Marketer at Time Cop
+        designation: Data Privacy Specialist at CyberShield
         message: >-
-          Wow, what a difference Sendit has made. My customers are more engaged
-          than ever.
+          Impressive! Our data privacy has improved significantly. Our data remains confidential and secure.
       - image: /images/testimonial/logo-4.jpg
         image_alt: Profile photo of Simon Moriarty
         author: Simon Moriarty
-        designation: Head of Marketing at Pinnacle Mines
+        designation: Head of Data Protection at SecureTech
         message: >-
-          I can't imagine life without Sendit now, I have no idea how we were
-          surviving before.
+          Our data security is now top-notch, thanks to our secure data privacy system.
 ---
